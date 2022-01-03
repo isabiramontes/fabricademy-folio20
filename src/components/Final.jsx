@@ -2,7 +2,7 @@ import React from "react";
 
 function Final() {
     return (
-        <div className="home">
+        <div className="final">
             <div class="container">
                 <div class="row align-items-center my-5">
                     <div class="col-lg-7">
