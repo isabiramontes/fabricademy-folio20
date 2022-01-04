@@ -1,37 +1,23 @@
 import React from "react";
-import { NavDropdown } from "react-bootstrap";
+import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 
 function Navigation() {
     return (
         <div className="navigation">
-            <nav className="navbar navbar-expand navbar-dark bg-dark">
-                <div className="container">
-                    <NavLink className="navbar-brand" to="/home">
-                        Home
-                    </NavLink>
-                    <div>
-                        <ul className="navbar-nav ml-auto">
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="/assignments">
-                                    Assignments
-                                </NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="/final">
-                                    Final
-                                    <span className="sr-only">(current)</span>
-                                </NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="/about">
-                                    About
-                                </NavLink>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+            <Navbar fixed="top">
+                <Container style={{ display: "flex" }}>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <NavLink className="nav-link" to="/home" style={{ justifyContent: "flexStart" }}> Home </NavLink>
+                    <Navbar.Collapse id="basic-navbar-nav">
+                        <Container style={{ justifyContent: "center" }}>
+                            <NavLink className="nav-link" to="/assignments"> Assignments </NavLink>
+                            <NavLink className="nav-link" to="/final"> Final </NavLink>
+                        </Container>
+                        <NavLink className="nav-link" to="/about" style={{ justifyContent: "flexEnd" }}> About </NavLink>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
         </div>
     );
 }
