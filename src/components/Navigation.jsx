@@ -1,23 +1,27 @@
 import React from "react";
-import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
+import { Nav, Container } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
+import "../App.css"
 
 function Navigation() {
     return (
         <div className="navigation">
-            <Navbar fixed="top">
-                <Container style={{ display: "flex" }}>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <NavLink className="nav-link" to="/home" style={{ justifyContent: "flexStart" }}> Home </NavLink>
-                    <Navbar.Collapse id="basic-navbar-nav">
-                        <Container style={{ justifyContent: "center" }}>
-                            <NavLink className="nav-link" to="/assignments"> Assignments </NavLink>
-                            <NavLink className="nav-link" to="/final"> Final </NavLink>
-                        </Container>
-                        <NavLink className="nav-link" to="/about" style={{ justifyContent: "flexEnd" }}> About </NavLink>
-                    </Navbar.Collapse>
-                </Container>
-            </Navbar>
+            <Container>
+                <Nav className="d-flex justify-content-between" activeKey="/home">
+                    <Nav.Item>
+                        <NavLink className="nav-link" to="/home"> Home </NavLink>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <NavLink className="nav-link" to="/assignments"> Assignments </NavLink>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <NavLink className="nav-link" to="/final"> Final </NavLink>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <NavLink className="nav-link" to="/about"> About </NavLink>
+                    </Nav.Item>
+                </Nav>
+            </Container>
         </div>
     );
 }
