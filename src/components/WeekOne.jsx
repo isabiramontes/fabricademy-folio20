@@ -11,6 +11,7 @@ function WeekOne() {
     return (
         <div className="home">
             <div class="container">
+                <h1 className="boldHeader"> State of the art, project management & documentation </h1>
                 <h1 className="mt-5"> Week 1</h1>
                 <h6 className="mb-5">The post slug is, {weekSlug}</h6>
                 <p>
