@@ -1,0 +1,9 @@
+.menuRow{
+    height: 50vh;
+    background-color: coral;
+    width: 100vw;
+}
+.weekText{
+    text-align: right;
+    overflow: hidden; 
+}

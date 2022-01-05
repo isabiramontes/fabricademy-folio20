@@ -1,31 +1,29 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Container, Row, Col } from "react-bootstrap";
+import "../weeks.css"
 
 function Weeks() {
     return (
-        <div className="home">
-            <div class="container">
-                <Link to="/Projects/WeekOne">
-                    <div class="row align-items-center my-5">
-                        <div class="col-lg-7">
-                            <img
-                                class="img-fluid rounded mb-4 mb-lg-0"
-                                src="http://placehold.it/900x400"
-                                alt=""
-                            />
-                        </div>
-                        <div class="col-lg-5">
-                            <h1 class="font-weight-light">This is a post title</h1>
-                            <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy
-                                text ever since the 1500s, when an unknown printer took a galley
-                                of type and scrambled it to make a type specimen book.
+        <div className="weeks" style={{ paddingTop: "4vh" }}>
+            <Container style={{ marginLeft: "0", marginRight: "0", overflow: "hidden"}} >
+                <Row className="menuRow" style={{ paddingTop: "10vh", paddingBottom: "10vh"}}>
+                    <Col sm={2} lg={2}>
+                        <h1 style={{ fontSize: "13vh", textAlign: "center", verticalAlign: "middle"}}> 01 </h1>
+                    </Col>
+                    <Col sm={4} lg={4}>
+                        <div className="text-center" style={{ width: "80%", height: "26vh", backgroundColor: "black"}}> </div>
+                    </Col>
+                    <Col sm={6} lg={6} className="weekText">
+                        <Link to="/Projects/WeekOne">
+                            <h1 className="boldHeader"> state of the art, project management & documentation </h1>
+                            <p> 
+                                This week I worked on start to brainstorm for my final project and learning/adjusting to the documentation process.
                             </p>
-                        </div>
-                    </div>
-                </Link>
-            </div>
+                        </Link>
+                    </Col>
+                </Row>
+            </Container>
         </div>
     );
 }

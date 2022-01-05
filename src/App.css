@@ -23,6 +23,9 @@ h1{ /* Timonium Light */
 }
 
 /* Used for all */
+html, body {
+  overflow-x: hidden;
+}
 
 .parallax {
   min-height: 100vh;
