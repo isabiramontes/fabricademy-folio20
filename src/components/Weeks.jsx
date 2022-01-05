@@ -5,7 +5,7 @@ function Weeks() {
     return (
         <div className="home">
             <div class="container">
-                <Link to="/Assignments/WeekOne">
+                <Link to="/Projects/WeekOne">
                     <div class="row align-items-center my-5">
                         <div class="col-lg-7">
                             <img

@@ -12,7 +12,7 @@ function Navigation() {
                         <NavLink className="nav-link" to="/home" style={{ color: "#1c1c21" }}> HOME </NavLink>
                     </Nav.Item>
                     <Nav.Item>
-                        <NavLink className="nav-link" to="/assignments" style={{ color: "#1c1c21" }}> ASSIGNMENTS </NavLink>
+                        <NavLink className="nav-link" to="/projects" style={{ color: "#1c1c21" }}> PROJECTS </NavLink>
                     </Nav.Item>
                     <Nav.Item>
                         <NavLink className="nav-link" to="/final" style={{ color: "#1c1c21" }}> FINAL </NavLink>

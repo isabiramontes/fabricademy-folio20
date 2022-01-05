@@ -1,5 +1,8 @@
 import React, { useEffect } from "react";
 import { useParams } from "react-router";
+import "../App.css"
+import "../weeks.css"
+import { Container, Row, Col } from "react-bootstrap";
 
 function WeekOne() {
     let { weekSlug } = useParams();

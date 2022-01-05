@@ -49,6 +49,10 @@ h1{ /* Timonium Light */
 
 }
 
+body{
+    -webkit-text-size-adjust: none; 
+}
+
 
 
 /* Sections */ 
@@ -103,25 +107,32 @@ h1{ /* Timonium Light */
     color: #1c1c21;
 }
 
-.ddaText{ /* "DEVELOPER, DESIGNER, ARTIST." */
-    position: absolute;
-    color: #F3EFE2;
-    font-size: 10vw;
-    left: 55%;
-    top: 170vh;
-    line-height: 140px;
-    
-    display: flex;
-    letter-spacing: -0.015em;
-}
-
 /* About Assets */ 
 
 #aboutSection{
   background-color: #878741;
   z-index: 1;
 }
+.aboutText{
+    color: #F3EFE2;
+}
+.ddaText{ /* "DEVELOPER, DESIGNER, ARTIST." */
+    position: absolute;
+    color: #F3EFE2;
+    left: 15%;
+    line-height: 100%;
+    
+    display: flex;
+    letter-spacing: -0.015em;
+    width: 500px;
+    height: 500px;
+    font-size: 20vw;
+    line-height: 8%;
+    
 
+    z-index: 1;
+
+}
 /* Nav Assets */ 
 
 #navSection{
