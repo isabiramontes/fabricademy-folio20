@@ -26,7 +26,6 @@ h1{ /* Timonium Light */
 html, body {
   overflow-x: hidden;
 }
-
 .parallax {
   min-height: 100vh;
   background-attachment: fixed;
@@ -51,12 +50,17 @@ html, body {
     text-decoration: underline;
 
 }
-
 body{
     -webkit-text-size-adjust: none; 
 }
+.defaultTextBody{
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    font-size: 1.4em;
+    overflow-wrap: break-word;
 
-
+}
 
 /* Sections */ 
 
@@ -119,27 +123,20 @@ body{
 .aboutText{
     color: #F3EFE2;
 }
-.ddaText{ /* "DEVELOPER, DESIGNER, ARTIST." */
-    position: absolute;
-    color: #F3EFE2;
-    left: 15%;
-    line-height: 100%;
-    
-    display: flex;
-    letter-spacing: -0.015em;
-    width: 500px;
-    height: 500px;
-    font-size: 20vw;
-    line-height: 8%;
-    
 
-    z-index: 1;
+
+.ddaText{ /* "DEVELOPER, DESIGNER, ARTIST." */
+    color: #F3EFE2;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 9em;
+    letter-spacing: -0.015em;
+    line-height: 100%;
 
 }
+
 /* Nav Assets */ 
 
 #navSection{
     background-color: #3f4d25;
 }
-
-

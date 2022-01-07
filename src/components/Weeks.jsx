@@ -7,14 +7,15 @@ function Weeks() {
     return (
         <div className="weeks" style={{ paddingTop: "4vh" }}>
             <Container style={{ marginLeft: "0", marginRight: "0", overflow: "hidden"}} >
-                <Row className="menuRow" style={{ paddingTop: "10vh", paddingBottom: "10vh"}}>
-                    <Col sm={2} lg={2}>
-                        <h1 style={{ fontSize: "13vh", textAlign: "center", verticalAlign: "middle"}}> 01 </h1>
+                <Row className="menuRow">
+                    <Col xs md lg="2" className="weekNum">
+                        <h1> 01 </h1>
                     </Col>
-                    <Col sm={4} lg={4}>
-                        <div className="text-center" style={{ width: "80%", height: "26vh", backgroundColor: "black"}}> </div>
+                    <Col xs md lg="4" >
+                        <div className="imgHolder"> </div>
                     </Col>
-                    <Col sm={6} lg={6} className="weekText">
+                    
+                    <Col xs md lg="6"className="weekText">
                         <Link to="/Projects/WeekOne">
                             <h1 className="boldHeader"> state of the art, project management & documentation </h1>
                             <p> 
