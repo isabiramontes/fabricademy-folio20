@@ -1,32 +1,15 @@
-/* Menu Rows */
-.menuRow{
-    height: 50vh;
-    width: 100vw;
-    flex-direction: row;
-    box-sizing: border-box;
-}
+/* All the folowwing CSS is for the Project Menu */
 
-/* Menu Cols */
-.imgCol, .weekCol, .arrowCol {
-    padding-right: 0;
-    padding-left: 0;
-}
-.imgCol{
-    padding-top: 8vh;
-}
-.weekCol, .arrowCol{
-    text-align: center;
-}
-.weekInfoCol{
-    background-color: coral;
-    text-align: right;
+/* Menu */
+.weeks{
+    background-color: #f3efe2;
 }
 
 /* Text styles */
 .weekName{
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 2.5em;
+    font-size: 2.4em;
 }
 .weekNum {
     font-size: 7.5em;
@@ -35,10 +18,34 @@
     padding-bottom: 15vh;
 }
 
+/* Rows */
+.menuRow{
+    height: 50vh;
+    width: 100vw;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+/* Cols */
+.imgCol, .weekCol, .arrowCol {
+    padding-right: 0;
+    padding-left: 0;
+}
+.imgCol{
+    padding-top: 7vh;
+}
+.weekCol, .arrowCol{
+    text-align: center;
+}
+.weekInfoCol{
+    text-align: right;
+    padding-top: 10vh;
+}
+
 /* Week Content */
 .imgBox{
-    width: 80%;
-    height: 34vh;
+    width: 100%;
+    height: 36vh;
     background-color:#3f4d25;
     padding-right: 0; 
 }

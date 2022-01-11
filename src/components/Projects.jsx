@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 
 function Projects() {
     return (
-        <div className="projects" style={{ backgroundColor: "#f3efe2" }}>
+        <div className="projects" >
             <Outlet />
         </div>
     );
