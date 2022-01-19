@@ -33,7 +33,7 @@ html, body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.home {
+.home, html {
     background-color: #F3EFE2;
 }
 .navigation {
