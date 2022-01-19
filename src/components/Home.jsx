@@ -11,7 +11,7 @@ function Home() {
                         <span id="twentyText" style={{ fontSize: "15px" }}>2020</span>
                         <span className="boldHeader" style={{ display: "block", paddingTop: "12vw" }}> Biramontes </span>
                     </h1>
-                    <div id="home_pic"> </div>
+                    <div id="home_pic" />
                 </div>
                 <div className="parallax" id="aboutSection" style={{ height: "100vh", width: "100vw", overflow: "hidden" }}>
                     <Container>

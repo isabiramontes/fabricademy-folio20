@@ -98,10 +98,12 @@ Container{
 #home_pic {
     position: absolute;
     width: 33vw;
-    height: 45vw;
+    height: 80vh;
     left: 59.5%;
     top: 20%;
-    background-color: #878741;
+    background-image: url(/src/assets/gpg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #twentyText{ /* "2020" */
     position: absolute;

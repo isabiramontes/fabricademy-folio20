@@ -1,4 +1,4 @@
-/* All the folowwing CSS is for the Project Menu */
+/* All the following CSS is for the Project Menu */
 
 /* Menu */
 .weeks{
@@ -19,6 +19,16 @@
     margin-bottom: 0;
     padding-top: 4.5vh;
 }
+.finalProjectContent{
+    text-align: center;
+}
+.finalProjectText{
+    font-size: 9em;
+    text-transform: uppercase;
+}
+.finalProjectDesp{
+    font-size: 1.5em;
+}
 
 /* Rows */
 .menuRow{
@@ -35,8 +45,9 @@
     width: 100vw;
     flex-direction: row;
     box-sizing: border-box;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    padding-top: 12vh;
+    padding-right: 10vw;
+    padding-left: 10vw;
 }
 
 /* Cols */
@@ -78,4 +89,3 @@
     font-size: 3.1em;
     color: #1C1C21;
 }
-

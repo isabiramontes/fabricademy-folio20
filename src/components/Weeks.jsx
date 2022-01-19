@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
 import "../weeks.css"
+import "../animations.css"
 
 function Weeks() {
     return (
@@ -22,7 +23,12 @@ function Weeks() {
                             <p className="defaultTextBody" >Brainstorming for my final project and learning/adjusting to the documentation process.</p>
                         </Col>
                         <Col sm={1} md={1} lg={1} className="arrowCol">
-                            <h1 className="weekNum"> k </h1>
+                            <Link to="/Projects/WeekOne">
+                                <div class="arrow">
+                                    <div class="arrow-top"></div>
+                                    <div class="arrow-bottom"></div>
+                                </div>
+                            </Link> 
                         </Col>
                     </Row>
                     <Row className="menuRow" >
@@ -33,13 +39,18 @@ function Weeks() {
                             <div className="imgBox" />
                         </Col>
                         <Col sm={6} md={6} lg={6} className="weekInfoCol">
-                            <Link to="/Projects/WeekOne" style={{ color: "#0b0b0a" }}>
+                            <Link to="..." style={{ color: "#0b0b0a" }}>
                                 <h1 className="weekName">Digital Bodies</h1>
                             </Link>
                             <p className="defaultTextBody" >Learning how to create 3D models using MakeHuman / Rhinoceros and how to translate those models into real life models using Slicer for Fusion 360.</p>
                         </Col>
                         <Col sm={1} md={1} lg={1} className="arrowCol">
-                            <h1 className="weekNum"> k </h1>
+                            <Link to="...">
+                                <div class="arrow">
+                                    <div class="arrow-top"></div>
+                                    <div class="arrow-bottom"></div>
+                                </div>
+                            </Link>
                         </Col>
                     </Row>
                     <Row className="menuRow">
@@ -50,13 +61,18 @@ function Weeks() {
                             <div className="imgBox" />
                         </Col>
                         <Col sm={6} md={6} lg={6} className="weekInfoCol">
-                            <Link to="/Projects/WeekOne" style={{ color: "#0b0b0a" }}>
+                            <Link to="..." style={{ color: "#0b0b0a" }}>
                                 <h1 className="weekName">Circular fashion</h1>
                             </Link>
                             <p className="defaultTextBody">Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum</p>
                         </Col>
                         <Col sm={1} md={1} lg={1} className="arrowCol">
-                            <h1 className="weekNum"> k </h1>
+                            <Link to="...">
+                                <div class="arrow">
+                                    <div class="arrow-top"></div>
+                                    <div class="arrow-bottom"></div>
+                                </div>
+                            </Link>
                         </Col>
                     </Row> 
                 </Container>
@@ -71,13 +87,18 @@ function Weeks() {
                             <div className="imgBox" />
                         </Col>
                         <Col sm={6} md={6} lg={6} className="weekInfoCol">
-                            <Link to="/Projects/WeekOne" style={{ color: "#0b0b0a" }}>
+                            <Link to="..." style={{ color: "#0b0b0a" }}>
                                 <h1 className="weekName">biochromes</h1>
                             </Link>
                             <p className="defaultTextBody" >Learning about Biochromes, a more natural sustainable approach to pigments and textile dying, to develop a natural dye and ink of my own.</p>
                         </Col>
                         <Col sm={1} md={1} lg={1} className="arrowCol">
-                            <h1 className="weekNum"> k </h1>
+                            <Link to="...">
+                                <div class="arrow">
+                                    <div class="arrow-top"></div>
+                                    <div class="arrow-bottom"></div>
+                                </div>
+                            </Link>
                         </Col>
                     </Row>
                     <Row className="menuRow" >
@@ -88,13 +109,18 @@ function Weeks() {
                             <div className="imgBox" />
                         </Col>
                         <Col sm={6} md={6} lg={6} className="weekInfoCol">
-                            <Link to="/Projects/WeekOne" style={{ color: "#0b0b0a" }}>
+                            <Link to="..." style={{ color: "#0b0b0a" }}>
                                 <h1 className="weekName">E-textiles</h1>
                             </Link>
                             <p className="defaultTextBody">Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum</p>
                         </Col>
                         <Col sm={1} md={1} lg={1} className="arrowCol">
-                            <h1 className="weekNum"> k </h1>
+                            <Link to="...">
+                                <div class="arrow">
+                                    <div class="arrow-top"></div>
+                                    <div class="arrow-bottom"></div>
+                                </div>
+                            </Link>
                         </Col>
                     </Row>
                     <Row className="menuRow">
@@ -105,13 +131,18 @@ function Weeks() {
                             <div className="imgBox" />
                         </Col>
                         <Col sm={6} md={6} lg={6} className="weekInfoCol">
-                            <Link to="/Projects/WeekOne" style={{ color: "#0b0b0a" }}>
+                            <Link to="..." style={{ color: "#0b0b0a" }}>
                                 <h1 className="weekName">BioFabricating Materials</h1>
                             </Link>
                             <p className="defaultTextBody"> Exploring available technology to develop bio-based materials as an alternative to current, less sustainable options. </p>
                         </Col>
                         <Col sm={1} md={1} lg={1} className="arrowCol">
-                            <h1 className="weekNum"> k </h1>
+                            <Link to="...">
+                                <div class="arrow">
+                                    <div class="arrow-top"></div>
+                                    <div class="arrow-bottom"></div>
+                                </div>
+                            </Link>
                         </Col>
                     </Row>
                 </Container>
@@ -126,13 +157,18 @@ function Weeks() {
                             <div className="imgBox" />
                         </Col>
                         <Col sm={6} md={6} lg={6} className="weekInfoCol">
-                            <Link to="/Projects/WeekOne" style={{ color: "#0b0b0a" }}>
+                            <Link to="..." style={{ color: "#0b0b0a" }}>
                                 <h1 className="weekName">Computational Couture</h1>
                             </Link>
                             <p className="defaultTextBody">Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum</p>
                         </Col>
                         <Col sm={1} md={1} lg={1} className="arrowCol">
-                            <h1 className="weekNum"> k </h1>
+                            <Link to="...">
+                                <div class="arrow">
+                                    <div class="arrow-top"></div>
+                                    <div class="arrow-bottom"></div>
+                                </div>
+                            </Link>
                         </Col>
                     </Row>
                     <Row className="menuRow" >
@@ -143,13 +179,18 @@ function Weeks() {
                             <div className="imgBox" />
                         </Col>
                         <Col sm={6} md={6} lg={6} className="weekInfoCol">
-                            <Link to="/Projects/WeekOne" style={{ color: "#0b0b0a" }}>
+                            <Link to="..." style={{ color: "#0b0b0a" }}>
                                 <h1 className="weekName">Open Source Hardware - From Fibers to Fabric</h1>
                             </Link>
                             <p className="defaultTextBody">For our first and only fully collaborative week, myself, Noémie Carrier, Annie Ferlatte, and François Auclair built our own automated loom.</p>
                         </Col>
                         <Col sm={1} md={1} lg={1} className="arrowCol">
-                            <h1 className="weekNum"> k </h1>
+                            <Link to="...">
+                                <div class="arrow">
+                                    <div class="arrow-top"></div>
+                                    <div class="arrow-bottom"></div>
+                                </div>
+                            </Link>
                         </Col>
                     </Row>
                     <Row className="menuRow">
@@ -160,13 +201,18 @@ function Weeks() {
                             <div className="imgBox" />
                         </Col>
                         <Col sm={6} md={6} lg={6} className="weekInfoCol">
-                            <Link to="/Projects/WeekOne" style={{ color: "#0b0b0a" }}>
+                            <Link to="..." style={{ color: "#0b0b0a" }}>
                                 <h1 className="weekName">Textile as scaffold</h1>
                             </Link>
                             <p className="defaultTextBody">Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum</p>
                         </Col>
                         <Col sm={1} md={1} lg={1} className="arrowCol">
-                            <h1 className="weekNum"> k </h1>
+                            <Link to="...">
+                                <div class="arrow">
+                                    <div class="arrow-top"></div>
+                                    <div class="arrow-bottom"></div>
+                                </div>
+                            </Link>
                         </Col>
                     </Row>
                 </Container>
@@ -181,13 +227,18 @@ function Weeks() {
                             <div className="imgBox" />
                         </Col>
                         <Col sm={6} md={6} lg={6} className="weekInfoCol">
-                            <Link to="/Projects/WeekOne" style={{ color: "#0b0b0a" }}>
+                            <Link to="..." style={{ color: "#0b0b0a" }}>
                                 <h1 className="weekName">Wearables</h1>
                             </Link>
                             <p className="defaultTextBody">Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum</p>
                         </Col>
                         <Col sm={1} md={1} lg={1} className="arrowCol">
-                            <h1 className="weekNum"> k </h1>
+                            <Link to="...">
+                                <div class="arrow">
+                                    <div class="arrow-top"></div>
+                                    <div class="arrow-bottom"></div>
+                                </div>
+                            </Link>
                         </Col>
                     </Row>
                     <Row className="menuRow" >
@@ -198,13 +249,18 @@ function Weeks() {
                             <div className="imgBox" />
                         </Col>
                         <Col sm={6} md={6} lg={6} className="weekInfoCol">
-                            <Link to="/Projects/WeekOne" style={{ color: "#0b0b0a" }}>
+                            <Link to="..." style={{ color: "#0b0b0a" }}>
                                 <h1 className="weekName">Implications and applications</h1>
                             </Link>
                             <p className="defaultTextBody">Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum</p>
                         </Col>
                         <Col sm={1} md={1} lg={1} className="arrowCol">
-                            <h1 className="weekNum"> k </h1>
+                            <Link to="...">
+                                <div class="arrow">
+                                    <div class="arrow-top"></div>
+                                    <div class="arrow-bottom"></div>
+                                </div>
+                            </Link>
                         </Col>
                     </Row>
                     <Row className="menuRow">
@@ -215,13 +271,18 @@ function Weeks() {
                             <div className="imgBox" />
                         </Col>
                         <Col sm={6} md={6} lg={6} className="weekInfoCol">
-                            <Link to="/Projects/WeekOne" style={{ color: "#0b0b0a" }}>
+                            <Link to="..." style={{ color: "#0b0b0a" }}>
                                 <h1 className="weekName">Soft robotics</h1>
                             </Link>
                             <p className="defaultTextBody">Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum</p>
                         </Col>
                         <Col sm={1} md={1} lg={1} className="arrowCol">
-                            <h1 className="weekNum"> k </h1>
+                            <Link to="...">
+                                <div class="arrow">
+                                    <div class="arrow-top"></div>
+                                    <div class="arrow-bottom"></div>
+                                </div>
+                            </Link>
                         </Col>
                     </Row>
                 </Container>
@@ -236,20 +297,24 @@ function Weeks() {
                             <div className="imgBox" />
                         </Col>
                         <Col sm={6} md={6} lg={6} className="weekInfoCol">
-                            <Link to="/Projects/WeekOne" style={{ color: "#0b0b0a" }}>
+                            <Link to="..." style={{ color: "#0b0b0a" }}>
                                 <h1 className="weekName">Skin Electronics</h1>
                             </Link>
                             <p className="defaultTextBody">Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum</p>
                         </Col>
                         <Col sm={1} md={1} lg={1} className="arrowCol">
-                            <h1 className="weekNum"> k </h1>
+                            <Link to="...">
+                                <div class="arrow">
+                                    <div class="arrow-top"></div>
+                                    <div class="arrow-bottom"></div>
+                                </div>
+                            </Link>
                         </Col>
                     </Row>
-                    <Row className="finalProjectRow" >
-                        <Col sm={12} md={12} lg={12}>
-                            <h1>Final Project</h1>
-                            <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p>
-                            
+                    <Row className="finalProjectRow">
+                        <Col sm={12} md={12} lg={12} className="finalProjectContent">
+                            <h1 className="finalProjectText">Final Project</h1>
+                            <p className="finalProjectDesp">lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p>
                         </Col>
                     </Row>
                 </Container>
