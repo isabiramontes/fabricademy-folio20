@@ -5,11 +5,6 @@ import "../weeks.css"
 import { Container, Row, Col} from "react-bootstrap";
 
 function WeekOne() {
-    let { weekSlug } = useParams();
-
-    useEffect(() => {
-        // Fetch week using the weekSlug
-    }, [weekSlug]);
 
     return (
         <div className="home">
@@ -18,7 +13,7 @@ function WeekOne() {
                     <Container>
                         <h1 className="weekNameandweekNum"> State of the art, project management & documentation </h1>
                         <h1 className="weekIdentity"> Week 1</h1>
-                        <p className="weekHookText">This week I worked on start to brainstorm for my final project and learning/adjusting to the documentation process. {weekSlug}</p>
+                        <p className="weekHookText">This week I worked on start to brainstorm for my final project and learning/adjusting to the documentation process. </p>
                     </Container>
                 </div>
                 <div className="parallax" style={{ height: "100vh", width: "100vw", overflow: "hidden" }}>
