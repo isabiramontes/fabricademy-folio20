@@ -25,8 +25,8 @@ function Weeks() {
                         <Col sm={1} md={1} lg={1} className="arrowCol">
                             <Link to="/Projects/WeekOne">
                                 <div class="arrow">
-                                    <div class="arrow-top"></div>
-                                    <div class="arrow-bottom"></div>
+                                    <div class="arrow-top" />
+                                    <div class="arrow-bottom" />
                                 </div>
                             </Link> 
                         </Col>
@@ -39,13 +39,13 @@ function Weeks() {
                             <div className="imgBox" />
                         </Col>
                         <Col sm={6} md={6} lg={6} className="weekInfoCol">
-                            <Link to="..." style={{ color: "#0b0b0a" }}>
+                            <Link to="/Projects/WeekTwo" style={{ color: "#0b0b0a" }}>
                                 <h1 className="weekName">Digital Bodies</h1>
                             </Link>
                             <p className="defaultTextBody" >Learning how to create 3D models using MakeHuman / Rhinoceros and how to translate those models into real life models using Slicer for Fusion 360.</p>
                         </Col>
                         <Col sm={1} md={1} lg={1} className="arrowCol">
-                            <Link to="...">
+                            <Link to="/Projects/WeekTwo">
                                 <div class="arrow">
                                     <div class="arrow-top"></div>
                                     <div class="arrow-bottom"></div>

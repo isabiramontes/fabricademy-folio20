@@ -12,9 +12,9 @@ function WeekTwo() {
     }, [weekSlug]);
 
     return (
-        <div className="home">
-            <Container>
-                <h1 className="boldHeader"> Digital Bodies </h1>
+        <div>
+            <Container >
+                <h1 className="boldHeader" style={{color:"black"}}> Digital Bodies </h1>
                 <h1 className="mt-5"> Week 2</h1>
                 <h6 className="mb-5">The post slug is, {weekSlug}</h6>
                 <p>
