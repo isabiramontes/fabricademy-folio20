@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
-import { Navigation, Home, About, Final, Projects, Week} from './components';
+import { Navigation, Home, About, Final, Projects, WeekTest, } from './components';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
