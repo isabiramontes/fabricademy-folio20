@@ -39,8 +39,14 @@
     padding-top: 2vh;
     padding-bottom: 2vh;
 }
+/* ROW HOVER EFFECT 
+.menuRow:hover{
+    background-color: #E9C149;
+}
+*/
+
 .finalProjectRow{
-    background-color: coral;
+    background-color: #f3903f;
     height: 64vh;
     width: 100vw;
     flex-direction: row;
@@ -88,4 +94,19 @@
 .weekHookText{
     font-size: 3.1em;
     color: #1C1C21;
+}
+.groupProject{
+    font-size: 1.4em;
+    align-items: center;
+    letter-spacing: -0.015em;
+    overflow-wrap: break-word;   
+}
+span {
+    color: #878741;
+}
+a:link, a:visited { 
+    text-decoration: none; 
+}
+span:hover, span:active{ 
+    color: #3f4d25;
 }

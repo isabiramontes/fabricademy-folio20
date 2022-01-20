@@ -67,6 +67,16 @@ Container{
     overflow: hidden;
 }
 
+.customLinkCSS{
+    color: #0b0b0a;
+}
+.customLinkCSS:hover{
+    color: #3f4d25;
+}
+
+
+
+
 /* Sections */ 
 
 #introSection {
