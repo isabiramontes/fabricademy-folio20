@@ -9,7 +9,7 @@ function Home() {
                 <div className="parallax" id="introSection">
                     <h1 className="fullName"> ISA
                         <span id="twentyText" style={{ fontSize: "15px" }}>2020</span>
-                        <span className="boldHeader" style={{ display: "block", paddingTop: "12vw" }}> Biramontes </span>
+                        <span className="boldHeader" style={{ display: "block", paddingTop: "12vw", color: "#0b0b0a"}}> Biramontes </span>
                     </h1>
                     <div id="home_pic" />
                 </div>
@@ -24,8 +24,8 @@ function Home() {
                             </Col>
                             <Col sm={7} md={7} lg={7}>
                                 <h1 className="ddaText" > Developer,
-                                    <span style={{ display: "block" }}>Designer,</span>
-                                    <span style={{ display: "block" }}>Artist. </span>
+                                    <span style={{ display: "block", color: "#f3efe2" }}>Designer,</span>
+                                    <span style={{ display: "block", color: "#f3efe2"}}>Artist. </span>
                                 </h1>
                             </Col>
                         </Row>

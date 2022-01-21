@@ -1,6 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "../App.css"
 import "../weeks.css"
+
 import { Container } from "react-bootstrap";
 
 function WeekTwo() {

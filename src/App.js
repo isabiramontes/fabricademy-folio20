@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
-import { Navigation, Home, About, Final, Projects, Weeks, WeekTwo, WeekOne } from './components';
+import { Navigation, Home, Final, Projects, Weeks, WeekTwo, WeekOne } from './components';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -13,7 +13,6 @@ function App() {
         <Routes>
           <Route path="/home" element={<Home />} />
           <Route path="/" element={<Home />}></Route>
-          <Route path="/about" element={<About />} />
           <Route path="/final" element={<Final />} />
           <Route path="/projects" element={<Projects />}>
             <Route path="" element={<Weeks />} />

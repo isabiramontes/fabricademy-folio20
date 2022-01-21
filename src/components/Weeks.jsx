@@ -185,7 +185,7 @@ function Weeks() {
                             <div className="defaultTextBody">
                                 
                             </div>
-                            <p className="groupProject"> For our first and only fully collaborative week, myself, <a href="https://class.textile-academy.org/2021/noemie.carrier/" target="_blank"><span>Noémie Carrier</span></a>, <a href="https://class.textile-academy.org/2021/annie.ferlatte/" target="_blank"><span>Annie Ferlatte</span></a>, and <a href="https://class.textile-academy.org/2021/francois.auclair/" target="_blank"><span>François Auclair</span></a> built our own automated loom. </p>
+                            <p className="groupProject"> For our first and only fully collaborative week, myself, <a href="https://class.textile-academy.org/2021/noemie.carrier/" target="_blank" rel="noreferrer"><span>Noémie Carrier</span></a>, <a href="https://class.textile-academy.org/2021/annie.ferlatte/" target="_blank" rel="noreferrer"><span>Annie Ferlatte</span></a>, and <a href="https://class.textile-academy.org/2021/francois.auclair/" target="_blank" rel="noreferrer"><span>François Auclair</span></a> built our own automated loom. </p>
                         </Col>
                         <Col sm={1} md={1} lg={1} className="arrowCol">
                             <Link to="/projects/weekeight">
