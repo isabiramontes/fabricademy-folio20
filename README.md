@@ -1,3 +1,3 @@
 # Information
 
-This project was buit as a portfolio update for my course at Fabricademy 2020. Built in VSCode with React and Bootstrap.
+This project is an updated version of my portfolio. Featuring more despcritions on specfic content and a sortable bootstrap gallery.  Built in VSCode with React and Bootstrap.

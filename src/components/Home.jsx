@@ -1,38 +1,36 @@
 import React from "react";
 import "../App.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap"; 
 
 function Home() {
     return (
         <div className="home">
-            <div className="scrollContent" style={{ width: "100vw", overflow: "hidden" }}>
-                <div className="parallax" id="introSection">
-                    <h1 className="fullName"> ISA
-                        <span id="twentyText" style={{ fontSize: "15px" }}>2020</span>
-                        <span className="boldHeader" style={{ display: "block", paddingTop: "12vw", color: "#0b0b0a"}}> Biramontes </span>
-                    </h1>
-                    <div id="home_pic" />
-                </div>
-                <div className="parallax" id="aboutSection" style={{ height: "100vh", width: "100vw", overflow: "hidden" }}>
-                    <Container>
-                        <Row style={{ paddingTop: "20vh" }}>
-                            <Col sm={5} md={5} lg={5}>
-                                <div className="aboutText">
-                                    <h1 className="bodyText" style={{ fontSize: "1.7em", fontWeight: "bold" }}> Lorem ipsum</h1>
-                                    <p className="defaultTextBody" style={{ paddingRight: "10%" }}> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu turpis egestas pretium aenean. Eu non diam phasellus vestibulum lorem sed risus ultricies tristique. Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque. Dolor magna eget est lorem. Convallis posuere morbi leo urna. In mollis nunc sed id semper risus in. Congue eu consequat ac felis donec et odio. Purus faucibus ornare suspendisse sed nisi. Est ullamcorper eget nulla facilisi etiam dignissim diam quis enim.  </p>
-                                </div>
-                            </Col>
-                            <Col sm={7} md={7} lg={7}>
-                                <h1 className="ddaText" > Developer,
-                                    <span style={{ display: "block", color: "#f3efe2" }}>Designer,</span>
-                                    <span style={{ display: "block", color: "#f3efe2"}}>Artist. </span>
-                                </h1>
-                            </Col>
-                        </Row>
-                    </Container>
-                </div>   
-            </div>  
+            <Container>
+                <Row style={{ width: "100vw", height: "100vh" }}>
+                    <div className="scrollContent" style={{ width: "100vw", overflow: "hidden" }}>
+                        <div id="introSection" className="parallax">
+                            <h1 id="fullName" className="boldHeader"> Isa Biramontes</h1>
+                            <h2 id="dda"> developer, designer, artist. </h2>
+                        </div>
+                    </div>
+                </Row>
+                <Row style={{ width: "200vw", height: "100vh" }}>
+                    <div className="scrollContent" style={{ width: "100vw", overflow: "hidden" }}>
+                        <div className="parallax" >
+                            <p> this is my main gallery </p>
+                        </div>
+                    </div>
+                </Row> 
+                <Row style={{ width: "200vw", height: "100vh" }}>
+                    <div className="scrollContent" style={{ width: "100vw", overflow: "hidden" }}>
+                        <div className="parallax" >
+                            <p> this is my about / contact </p>
+                        </div>
+                    </div>
+                </Row>  
+            </Container>
         </div>
+        
     );
 }
 

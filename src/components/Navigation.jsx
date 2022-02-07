@@ -9,16 +9,19 @@ function Navigation() {
             <Container className="navContainer">
                 <Nav className="d-flex justify-content-between" activeKey="/home">
                     <Nav.Item>
-                        <NavLink className="nav-link" to="/home" style={{ color: "#1c1c21" }}> HOME </NavLink>
+                        <NavLink className="nav-link" to="/home" style={{ color: "#DDE41A" }}> home </NavLink>
                     </Nav.Item>
                     <Nav.Item>
-                        <NavLink className="nav-link" to="/projects" style={{ color: "#1c1c21" }}> PROJECTS </NavLink>
+                        <NavLink className="nav-link" to="/developer" style={{ color: "#DDE41A" }}> developer </NavLink>
                     </Nav.Item>
                     <Nav.Item>
-                        <NavLink className="nav-link" to="/final" style={{ color: "#1c1c21" }}> FINAL </NavLink>
+                        <NavLink className="nav-link" to="/designer" style={{ color: "#DDE41A" }}> designer </NavLink>
                     </Nav.Item>
                     <Nav.Item>
-                        <NavLink className="nav-link" to="/home/#aboutSection" style={{ color: "#1c1c21" }}> ABOUT </NavLink>
+                        <NavLink className="nav-link" to="/artist" style={{ color: "#DDE41A" }}> artist </NavLink>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <NavLink className="nav-link" to="/home/#aboutSection" style={{ color: "#DDE41A" }}> about / contact </NavLink>
                     </Nav.Item>
                 </Nav>
             </Container>

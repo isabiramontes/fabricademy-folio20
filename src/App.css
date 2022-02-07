@@ -1,24 +1,27 @@
 /* Fonts */
 
-.boldHeader{ /* Timonium Bold */
+h1{ /* Halogen Bold */
+    font-family: halogen, sans-serif;
     font-weight: 700;
+    font-style: normal;
+}
+.boldHeader{
     text-transform: uppercase;
 }
-.boldbody{ /* AWConqueror Std Didot Bold */
-    font-family: aw-conqueror-didot, serif;
-    font-weight: 700;
-}
-.boldHeaderItalic{ /* Timonium Bold Italic */
-    font-style: italic;
-}
-.bodyText, p , .navigation { /* AWConqueror Std Didot */
-    font-family: aw-conqueror-didot,serif;
+h2 /* Halogen Regular */ {
+    font-family: halogen, sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-h1{ /* Timonium Light */
-    font-family: timonium, sans-serif;
+
+.lightBody{ /* Termina Light */
+    font-family: termina,sans-serif;
     font-weight: 300;
+    font-style: normal;
+}
+.bodyText, p , .navigation { /* Termina Regular */
+    font-family: termina,sans-serif;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -34,21 +37,7 @@ html, body {
   background-size: cover;
 }
 .home, html {
-    background-color: #F3EFE2;
-}
-.navigation {
-    color: #1c1c21;
-    
-}
-.navContainer{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-    left: 5%;
-    right: 5%;
-    text-decoration: underline;
-
+    background-color: #FDFDFD;
 }
 body{
     -webkit-text-size-adjust: none; 
@@ -91,19 +80,49 @@ Container{
 
 /* Intro Assets */ 
 
-.fullName { /* "Isa Biramontes" */
-    position: absolute;
-    width: 385px;
-    height: 241px;
-    top: 25%;
-    left: 5%;
-    font-size: 15vw;
-    line-height: 8%;
-    align-items: center;
-    letter-spacing: -0.015em;
-    z-index: 1;
-    color: #0b0b0a;
+#fullName {
+   position: absolute;
+width: 1300.94px;
+height: 63.08px;
+left: 69.99px;
+top: 197.11px;
 
+font-family: Halogen;
+font-style: normal;
+font-weight: 900;
+font-size: 100px;
+line-height: 22px;
+/* or 22% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+
+color: #DDE41A;
+
+}
+
+#dda{
+    position: absolute;
+width: 1080.18px;
+height: 47.31px;
+left: 180.37px;
+top: 299.61px;
+
+font-family: Termina;
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 22px;
+/* or 37% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+
+color: #DDE41A;
 }
 #home_pic {
     position: absolute;
@@ -111,24 +130,9 @@ Container{
     height: 80vh;
     left: 59.5%;
     top: 20%;
-    background-image: url(/src/assets/gpg.png);
+    background-image: url(/src/assets/background_image.png);
     background-size: cover;
     background-repeat: no-repeat;
-}
-#twentyText{ /* "2020" */
-    position: absolute;
-    width: 30px;
-    height: 20px;
-    left: 18vw;
-    top: -5.5vw;
-    font-family: AWConqueror Std Didot;
-    font-size: 5px;
-    line-height: 10px;  
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.015em;
-    color: #1c1c21;
 }
 
 /* About Assets */ 
@@ -139,19 +143,4 @@ Container{
 }
 .aboutText{
     color: #F3EFE2;
-}
-
-.ddaText{ /* "DEVELOPER, DESIGNER, ARTIST." */
-    color: #F3EFE2;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 9em;
-    letter-spacing: -0.015em;
-    line-height: 100%;
-}
-
-/* Nav Assets */ 
-
-#navSection{
-    background-color: #3f4d25;
 }
